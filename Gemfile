@@ -8,6 +8,7 @@ gem "jbuilder"
 gem "pg", "~> 1.1"
 gem "puma", ">= 5.0"
 gem "rails", "~> 7.1.3"
+gem 'rspec-rails'
 gem 'sass-rails', '~> 6.0'
 gem 'turbolinks', '~> 5.2', '>= 5.2.1'
 gem 'webpacker', '~> 5.4', '>= 5.4.4'
