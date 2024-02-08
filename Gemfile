@@ -8,7 +8,6 @@ gem "jbuilder"
 gem "pg", "~> 1.1"
 gem "puma", ">= 5.0"
 gem "rails", "~> 7.1.3"
-gem 'rspec-rails'
 gem 'sass-rails', '~> 6.0'
 gem 'turbolinks', '~> 5.2', '>= 5.2.1'
 gem 'webpacker', '~> 5.4', '>= 5.4.4'
@@ -17,8 +16,13 @@ gem "turbo-rails"
 gem "sprockets-rails"
 gem "importmap-rails"
 gem "stimulus-rails"
-
+ 
 group :development, :test do
+  gem 'pry'
+  gem 'rspec-rails'
+  gem 'shoulda-matchers'
+  gem 'factory_bot_rails'
+  gem 'faker'
   gem "debug", platforms: %i[ mri mswin mswin64 mingw x64_mingw ]
 end
 
