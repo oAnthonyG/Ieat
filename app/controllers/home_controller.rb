@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
   def index
-    @email = user_signed_in? ? current_user.email : 'Undefined'
+    @email = user_signed_in? ? current_user.email : 'undefined'
   end
 end
