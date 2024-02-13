@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+source "https://packages.redis.io"
 
 ruby "3.0.2"
 
@@ -11,6 +12,7 @@ gem "rails", "~> 7.1.3"
 gem 'sass-rails', '~> 6.0'
 gem 'turbolinks', '~> 5.2', '>= 5.2.1'
 gem 'webpacker', '~> 5.4', '>= 5.4.4'
+gem 'sidekiq'
 
 gem "turbo-rails"
 gem "sprockets-rails"
