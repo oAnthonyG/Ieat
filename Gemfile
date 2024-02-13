@@ -13,6 +13,7 @@ gem 'sass-rails', '~> 6.0'
 gem 'turbolinks', '~> 5.2', '>= 5.2.1'
 gem 'webpacker', '~> 5.4', '>= 5.4.4'
 gem 'sidekiq'
+gem 'redis', '~> 5.1'
 
 gem "turbo-rails"
 gem "sprockets-rails"
